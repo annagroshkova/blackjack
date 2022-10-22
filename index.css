@@ -1,0 +1,52 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  background-image: url('images/green table.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+  font-size: 90px;
+  margin: 50px 0;
+}
+
+p {
+  font-size: 46px;
+  margin: 30px 0;
+}
+
+.sum-el {
+  margin-bottom: 60px;
+}
+
+.message-el {
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  color: rgba(1, 111, 50, 1);
+  width: 200px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+}
+
+.player-el {
+  font-size: 24px;
+}
